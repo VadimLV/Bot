@@ -60,7 +60,7 @@ def handle_text(message):
         answer = random.choice(Quotes)
         bot.send_message(message.chat.id, answer)
     elif message.text.strip():
-        boфt.send_message(message.chat.id, getwiki(message.text))
+        bot.send_message(message.chat.id, getwiki(message.text))
 
 
 
